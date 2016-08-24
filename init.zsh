@@ -13,6 +13,7 @@ alias yayuf='sudo aptitude update; sudo aptitude full-upgrade'
 
 alias yah='sudo aptitude -h; echo "
 Aptitude Aliases: corresponding letters in description capitalized for mneumonic help ;)
+yah: show this Help
 yai: Install
 yar: Remove
 yap: Purge
