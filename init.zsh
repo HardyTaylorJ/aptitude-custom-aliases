@@ -2,8 +2,7 @@
 alias yai='sudo aptitude install'
 alias yar='sudo aptitude remove'
 alias yap='sudo aptitude purge'
-alias yas='sudo aptitude search'
-#show details
+alias yas='aptitude search'
 alias yad='sudo aptitude show'
 alias yay='sudo aptitude update'
 alias yau='sudo aptitude safe-upgrade'
@@ -11,7 +10,7 @@ alias yayu='sudo aptitude update; sudo aptitude safe-upgrade'
 alias yauf='sudo aptitude full-upgrade'
 alias yayuf='sudo aptitude update; sudo aptitude full-upgrade'
 
-alias yah='sudo aptitude -h; echo "
+alias yah='aptitude -h; echo "
 Aptitude Aliases: corresponding letters in description capitalized for mneumonic help ;)
 yah: show this Help
 yai: Install
